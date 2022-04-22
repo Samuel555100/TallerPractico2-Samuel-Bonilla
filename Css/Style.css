@@ -1,0 +1,233 @@
+*{
+	padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	top: 0;
+	padding: 2% 50px;
+	z-index: 100;
+	background: white;
+	border-bottom: 1px solid black;
+}
+
+header .logo{
+	width: 110px;
+  height: 70px;
+}
+
+.navegacion{
+    list-style: none;
+    margin: 9px;
+    padding: 0;
+}
+
+.navegacion.active {
+	display: inline-block;
+}
+
+.navegacion li{
+	padding: 0 0 0 0px;
+    list-style: none;
+    margin: 2px 0 0;
+    display: inline-block;
+    background: transparent;
+
+}
+
+.navegacion li a{
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px 15px;
+    background-color: gray;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0px 1px 1px rgb(255, 255, 255);
+}
+
+.navegacion li a:hover{
+	color: #000;
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+}
+
+.clase h1{
+  font-size: 40px;
+  margin-top: 2%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.clase video{
+  display: flex;
+  margin-left: 2%;
+}
+
+.clase h2{
+  font-size: 18px;
+  color: black;
+  margin-top: 1%;  
+  margin-left: 10%;
+  margin-right: 56%;
+  text-align: justify;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.clase1 video{
+  display: flex;
+  margin-left: 50%;
+  margin-top: -38.5%;
+}
+
+.clase1 h2{
+  font-size: 18px;
+  color: black;
+  margin-top: 1%;  
+  margin-left: 55%;
+  margin-right: 11%;
+  text-align: justify;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+footer{
+  background-color: white;
+  height: 60px;
+  margin-top: 5%;
+  border: 2px solid black;
+}
+
+.icon{
+  left: 14%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+.icon1{
+  left: 18%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+.icon2{
+  left: 22%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+.icon3{
+  left: 26%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+h2{
+  margin-left: 32%;
+  margin-top: 1%;
+  color: black;
+  font-size: 20px;
+}
+
+@media(max-width: 670px){
+  
+  header{
+    width: 100%;
+    height: 12%;
+}
+
+header .logo{
+    width: 80px;
+    height: 70px;
+    margin-left: -6%;
+}
+
+.navegacion li a{
+  padding: 3px 13px;
+  font-size: 12px;
+  left: 5%;
+}
+
+.clase video{
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 80%;
+  margin-top: 3%;
+  float: left;
+}
+
+.clase h2{
+  font-size: 20px;
+  color: black;
+  margin-top: 50%;  
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+  box-sizing: border-box;
+  border: 2px solid black;
+  position: absolute;
+}
+
+.clase1 video{
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 80%;
+  margin-top: 70%;
+}
+
+.clase1 h2{
+  font-size: 20px;
+  color: black;
+  margin-top: 4%;  
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+  box-sizing: border-box;
+  border: 2px solid black;
+  position: absolute;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  margin-top: 30%;
+}
+
+h2{
+  font-size: 12px;
+  margin-top: 3%;
+}
+
+.icon{
+  left: 3%;
+  margin-top: -3%;
+  position: absolute;
+}
+
+.icon1{
+  left: 10%;
+  margin-top: -3%;
+  position: absolute;
+}
+
+.icon2{
+  left: 17%;
+  margin-top: -3%;
+  position: absolute;
+}
+
+.icon3{
+  left: 24%;
+  margin-top: -3%;
+  position: absolute;
+}
+
+}
